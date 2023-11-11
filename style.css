@@ -127,6 +127,7 @@ main {
 .home-section {
   display: flex;
   padding-top: 100px;
+  padding: 30px;
   margin-bottom: 20px;
 }
 
@@ -142,14 +143,16 @@ main {
 }
 
 .image-container img {
-  width: 100%;
   height: auto;
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 45%;
 }
 
 .About-me-section {
   display: flex;
   flex-wrap: wrap;
   background-color: #72D6AA;
+  padding: 30px;
   border-radius: 70px;
   flex-shrink: 0;
   height: 80vh;
